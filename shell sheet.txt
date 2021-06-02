@@ -1,0 +1,94 @@
+osamamohamed@ubuntu:/$ sudo su
+[sudo] password for osamamohamed: 
+root@ubuntu:/# cd /home
+root@ubuntu:/home# mkdir task
+root@ubuntu:/home# ls
+osamamohamed  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# mkdir h1 h2
+root@ubuntu:/home/task# ls
+h1  h2
+root@ubuntu:/home/task# cd h1
+root@ubuntu:/home/task/h1# cat > file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@ubuntu:/home/task/h1# cat file1.txt
+this is file 1
+Dr.samar shaban
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@ubuntu:/home/task/h1# cat > file2.txt
+this is file 2
+osama mohamed ahmed 
+operating system
+root@ubuntu:/home/task/h1# cat > file3.txt
+^C
+root@ubuntu:/home/task/h1# cat file3.txt
+root@ubuntu:/home/task/h1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/h1# cp file1.txt /home/task/h2
+root@ubuntu:/home/task/h1# cd ../
+root@ubuntu:/home/task# cd h2
+root@ubuntu:/home/task/h2# ls
+file1.txt
+root@ubuntu:/home/task/h2# cd ../..
+root@ubuntu:/home# ls |grep a|grep A
+root@ubuntu:/home# ls
+osamamohamed  task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# ls |grep a|grep A
+root@ubuntu:/home/task# ls 
+h1  h2
+root@ubuntu:/home/task# cd h1
+root@ubuntu:/home/task/h1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/h1# cat > h.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@ubuntu:/home/task/h1# cat > h.txt
+dfhghdghdg^C
+root@ubuntu:/home/task/h1# ls
+abdo.txt  abdo.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/h1# ls |grep a|grep A
+root@ubuntu:/home/task/h1# ls | grep a| grep A
+root@ubuntu:/home/task/h1# ls
+abdo.txt  abdo.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/h1# ls | grep a
+osama.txt
+root@ubuntu:/home/task/h1# ls | grep A
+h.txt
+root@ubuntu:/home/task/h1# ls | wc-1
+wc-1: command not found
+root@ubuntu:/home/task/h1# ls | wc-l
+wc-l: command not found
+root@ubuntu:/home/task/h1# ls | wc l
+wc: l: No such file or directory
+root@ubuntu:/home/task/h1# ls | Wc-l
+Wc-l: command not found
+root@ubuntu:/home/task/h1# ls | WC-l
+WC-l: command not found
+root@ubuntu:/home/task/h1# ls -1 | wc -l
+5
+root@ubuntu:/home/task/h1# ls | wc -l
+5
+root@ubuntu:/home/osamamohamed# touch language.c
+root@ubuntu:/home/osamamohamed# gcc -o helloahmed language.c
+root@ubuntu:/home/osamamohamed# ./a.out language c
+oot@ubuntu:/home/osamamohamed# date
+Thu 29 Apr 2021 12:45:53 AM PDT
+root@ubuntu:/home/osamamohamed# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@ubuntu:/home/osamamohamed# pwd
+/home/osamamohamed
